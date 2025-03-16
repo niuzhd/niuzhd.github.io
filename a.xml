@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>Hello Feed</title>
+    <link>https://example.com/</link>
+    <description>Simple RSS feed example</description>
+    <atom:link href="https://example.com/feed.rss" rel="self" type="application/rss+xml"/>
+    
+    <item>
+        <title>Hello Message</title>
+        <link>https://example.com/hello.html</link>
+        <guid isPermaLink="false">hello-001</guid>
+        <pubDate>Wed, 05 Jun 2024 00:00:00 GMT</pubDate>
+        <description>Basic hello message example</description>
+    </item>
+
+</channel>
+</rss>
